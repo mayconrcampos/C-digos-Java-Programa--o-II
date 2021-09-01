@@ -8,9 +8,12 @@ public class Aluno {
     public Aluno(String nome){
         this.setNome(nome);
     }
-    
 
-    public void setNome(String nome) {
+    public Aluno(){
+        this.setNome("");
+    }
+    
+    private void setNome(String nome) {
         this.nome = nome;
     }
 
@@ -25,6 +28,4 @@ public class Aluno {
     public void testeSobrecarga(String frase) {
         System.out.println("Método de teste de sobrecarga: Frase: "+frase);
     }
-
-
 }
