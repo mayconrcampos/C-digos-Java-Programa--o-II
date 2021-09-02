@@ -3,12 +3,20 @@ public class PrincipalAluno {
 
     public static void main(String[] args) {
         
-        Aluno aluno = new Aluno("Maycon Campos");
-        //aluno.setNome("Maycon Campos");
-        System.out.println(aluno.getNome()); 
 
-        aluno.testeSobrecarga();
-        aluno.testeSobrecarga("Olár abiguinho!");
-        
+        try {
+            Aluno aluno = null;
+
+            if(aluno == null){
+                System.out.println(aluno.getNome()); 
+            }
+            
+
+            System.out.println("Chegou ao fim do try.");
+        } catch (Exception e) {
+            System.out.println("Exception: "+e);
+        } finally {
+            System.out.println("Passou pelo Finally");
+        }
     }
 }
