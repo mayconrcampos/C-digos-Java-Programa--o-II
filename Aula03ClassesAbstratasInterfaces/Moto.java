@@ -1,14 +1,16 @@
 package Aula03ClassesAbstratasInterfaces;
 
-public class Bike extends Veiculo {
+public class Moto extends Veiculo{
+    private String motor;
 
-    public Bike(){
+    private String cilindrada;
+
+    public Moto(){
         this.instanciarLocomocao();
     }
 
     @Override
     public void instanciarLocomocao(){
-        locomocao = new Pedal();
+        locomocao = new Motor();
     }
-  
 }

@@ -1,9 +1,17 @@
 package Aula03ClassesAbstratasInterfaces;
 
-public class Veiculo {
+public abstract class Veiculo {
     private String modelo;
 
     private String marca;
+
+    protected Locomocao locomocao;
+
+    public abstract void instanciarLocomocao();
+
+    public void acelerar() {
+        locomocao.acelerar();
+    }
 
     public void setModelo(String modelo) {
         this.modelo = modelo;
