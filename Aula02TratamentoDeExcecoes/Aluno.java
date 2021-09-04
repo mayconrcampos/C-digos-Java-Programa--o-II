@@ -1,3 +1,5 @@
+package Aula02TratamentoDeExcecoes;
+
 /**
  * Aluno
  */
