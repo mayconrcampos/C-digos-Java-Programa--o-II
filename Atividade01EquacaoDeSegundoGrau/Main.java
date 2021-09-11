@@ -58,7 +58,8 @@ public class Main {
             continua = Read.readString();
 
             while(continua.compareTo("") == 0 || continua.compareTo("erro") == 0){
-                System.out.println("Digite ou S - Sim ou N - Não");
+                System.out.println("Digite ou S - Sim ou Qualquer outro valor - Não");
+                continua = Read.readString();
             }
         } while (continua.compareTo("S") == 0 || continua.compareTo("s") == 0);
 
