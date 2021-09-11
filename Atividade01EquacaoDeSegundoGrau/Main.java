@@ -33,7 +33,7 @@ public class Main {
 
             Valores valores = new Valores(a, b, c);
 
-            Equacao.Equacao(valores);
+            Equacao.EquacaoDeSegundoGrau(valores);
 
             System.out.println("Você deseja continuar? s/n");
             continua = Read.readString();

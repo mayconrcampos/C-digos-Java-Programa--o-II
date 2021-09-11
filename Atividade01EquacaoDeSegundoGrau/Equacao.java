@@ -2,7 +2,7 @@ package Atividade01EquacaoDeSegundoGrau;
 
 public class Equacao {
     
-    public static void Equacao(Valores v) {
+    public static void EquacaoDeSegundoGrau(Valores v) {
         Double delta = Equacao.CalculaDelta(v);
 
         Equacao.CalculaRaiz(delta, v);
