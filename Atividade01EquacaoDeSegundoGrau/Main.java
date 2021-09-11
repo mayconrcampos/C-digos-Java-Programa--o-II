@@ -1,8 +1,6 @@
 package Atividade01EquacaoDeSegundoGrau;
 
-public class Main {
-
-    /**
+ /**
      * Atividade 01 - Explicação da Solução.
      * 
      *  - Foram criadas 3 classes principais.
@@ -21,7 +19,8 @@ public class Main {
      * 
      *      - O programa roda dentro de um laço Do While para que o usuário possa fazer vários cálculos, e após cada um deles *        o programa pergunta se deseja continuar. Ao digitar s ou S ele continua. Se digitar qualquer outro valor ele *        encerra a execução.
      */
-    
+
+public class Main { 
     public static void main(String[] args) {
         
         Double a;
