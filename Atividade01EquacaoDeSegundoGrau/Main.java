@@ -32,21 +32,21 @@ public class Main {
             System.out.println("Digite o valor de A");
             a = Read.readDouble();
             while(a == 0){
-                System.out.println("Equação de Segundo Grau: O valor de A deve ser diferente de 0");
+                System.out.println("Equação de Segundo Grau: O valor de A deve ser diferente de 0\nDigite novamente: ");
                 a = Read.readDouble();
             }
 
             System.out.println("Digite o valor de B");
             b = Read.readDouble();
             while(b == 0){
-                System.out.println("Equação de Segundo Grau: O valor de B deve ser diferente de 0");
+                System.out.println("Equação de Segundo Grau: O valor de B deve ser diferente de 0\nDigite novamente: ");
                 b = Read.readDouble();
             }
 
             System.out.println("Digite o valor de C");
             c = Read.readDouble();
             while(c == 0){
-                System.out.println("Equação de Segundo Grau: O valor de C deve ser diferente de 0");
+                System.out.println("Equação de Segundo Grau: O valor de C deve ser diferente de 0\nDigite novamente: ");
                 c = Read.readDouble();
             }
 
