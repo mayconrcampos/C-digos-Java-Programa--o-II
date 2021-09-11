@@ -15,16 +15,6 @@ public class Read {
             //throw new RuntimeException("Erro ao ler do teclado");
         }
     }
-    
-    public static int readInt() { // leitura de valores do tipo int (inteiros)
-        String str = readString();
-        try {
-            return Integer.parseInt(str);
-        } catch (NumberFormatException e) {
-            return -1;
-            //throw new RuntimeException(str + " não é um int válido");
-        }
-    }
 
     public static double readDouble() { // leitura de valores do tipo double (ponto flutuante)
         String str = readString();
